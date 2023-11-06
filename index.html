@@ -1,0 +1,35 @@
+<!-- ************************************************* -->
+<!-- This is an API calling project which has been 
+made by following clean code practices
+API calling for /posts, /comments, /todos, /users -->
+<!-- ************************************************* -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clean Code With API calling</title>
+    <!-- Linking CSS File -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- Linking Js File -->
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <main class="home-container">
+      <!-- Title -->
+      <section class="main-heading">
+        <h1>CALL THE API</h1>
+      </section>
+      <!-- Buttons to call API -->
+      <section class="bttn-container">
+        <button class="bttn" onclick="handleRequest()">Posts</button>
+        <button class="bttn" onclick="handleRequest()">Comments</button>
+        <button class="bttn" onclick="handleRequest()">Todos</button>
+        <button class="bttn" onclick="handleRequest()">Users</button>
+      </section>
+      <!-- To Showcase Data From API -->
+      <div class="output-area">Check Console For Data</div>
+    </main>
+  </body>
+</html>
